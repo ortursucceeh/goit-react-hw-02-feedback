@@ -1,21 +1,7 @@
-.feedback {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 40px auto 0px auto;
-  width: 500px;
-  height: 350px;
-  padding: 40px;
-  border: 2px solid black;
-  box-shadow: inset #009688 0 0 0 5px, inset #059c8e 0 0 0 1px,
-    inset #0cab9c 0 0 0 10px, inset #1fbdae 0 0 0 11px, inset #8ce9ff 0 0 0 16px,
-    inset #48e4d6 0 0 0 17px, inset #e5f9f7 0 0 0 21px, inset #bfecf7 0 0 0 22px;
-}
-
 .feedback__buttons-container {
   width: 350px;
   display: flex;
-  margin-top: 25px;
+  margin-top: 15px;
   justify-content: space-between;
 }
 
@@ -43,7 +29,7 @@
 
 .feedback__btn--neutral {
   composes: feedback__btn;
-  background-color: rgb(97, 191, 194);
+  background-color: rgb(109, 206, 209);
 }
 
 .feedback__btn--bad {
