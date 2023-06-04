@@ -1,10 +1,12 @@
 import { Component } from 'react';
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
-
+import Notification from 'components/Notification/Notification';
 class Statistics extends Component {
   render() {
     const { good, neutral, bad, total, positivePercentage } = this.props;
+
+    if (!total) return <Notification message="No feedback given👁‍🗨" />;
 
     return (
       <div className={css['statistics']}>
