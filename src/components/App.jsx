@@ -29,6 +29,7 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
+    console.log('Object.keys(this.state) :>> ', Object.keys(this.state));
 
     return (
       <div className={css['app']}>
