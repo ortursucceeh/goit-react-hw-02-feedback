@@ -3,8 +3,8 @@ import css from './Section.module.css';
 
 const Section = ({ title, children }) => {
   return (
-    <div className={css['section']}>
-      <h2 className={css['section__header']}>{title}</h2>
+    <div className={css.section}>
+      <h2 className={css.header}>{title}</h2>
       {children}
     </div>
   );

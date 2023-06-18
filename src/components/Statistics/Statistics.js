@@ -6,8 +6,8 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   if (!total) return <Notification message="No feedback given👁‍🗨" />;
 
   return (
-    <div className={css['statistics']}>
-      <div className={css['statistics__values-container']}>
+    <div className={css.stats}>
+      <div className={css.statsContainer}>
         <div>🙂Good: {good}</div>
         <div>😐Neutral: {neutral}</div>
         <div>🙁Bad: {bad}</div>

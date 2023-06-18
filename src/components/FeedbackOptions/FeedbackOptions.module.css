@@ -1,11 +1,11 @@
-.feedback__buttons-container {
+.buttonsContainer {
   width: 350px;
   display: flex;
   margin-top: 15px;
   justify-content: space-between;
 }
 
-.feedback__btn {
+.button {
   cursor: pointer;
   height: 50px;
   width: 100px;
@@ -13,26 +13,26 @@
   font-size: 16px;
 }
 
-.feedback__btn:active {
+.button:active {
   background-color: #ececec;
 }
 
-.feedback__btn:hover {
+.button:hover {
   transform: translateY(-5px);
   transition: 0.3s all;
 }
 
-.feedback__btn--good {
-  composes: feedback__btn;
+.button_good {
+  composes: button;
   background-color: rgb(80, 224, 80);
 }
 
-.feedback__btn--neutral {
-  composes: feedback__btn;
+.button_neutral {
+  composes: button;
   background-color: rgb(109, 206, 209);
 }
 
-.feedback__btn--bad {
-  composes: feedback__btn;
+.button_bad {
+  composes: button;
   background-color: #d86969;
 }

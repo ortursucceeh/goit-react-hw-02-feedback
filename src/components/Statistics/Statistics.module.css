@@ -1,9 +1,9 @@
-.statistics {
+.stats {
   margin-top: 15px;
   width: 350px;
 }
 
-.statistics__values-container {
+.statsContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
